@@ -41,7 +41,7 @@ avatar: "/img/avatar-icon.png"
 
 navbar-col: linear-gradient(
       to top right, 
-      red, '#f06d06')
+      '#FF0300', '#f06d06')
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
