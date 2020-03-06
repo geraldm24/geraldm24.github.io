@@ -4,8 +4,7 @@ Spending hours staring at the computer screen does something different to your b
 Keeping it simply I used a database from Kaggle [source](https://www.kaggle.com/jboysen/penn-world-table#PWT.csv)
 ![barchzz](https://raw.githubusercontent.com/geraldm24/geraldm24.github.io/master/img/barchart.png)
 ![viochzz](https://raw.githubusercontent.com/geraldm24/geraldm24.github.io/master/img/violinchart.png)
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~geraldm24/1.embed"></iframe>
 <div>
     <a href="https://plot.ly/~geraldm24/1/?share_key=1ChQXZiL8ZE9vJwMFE3lRQ" target="_blank" title="World Data" style="display: block; text-align: center;"><img src="https://plot.ly/~geraldm24/1.png?share_key=1ChQXZiL8ZE9vJwMFE3lRQ" alt="World Data" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="geraldm24:1" sharekey-plotly="1ChQXZiL8ZE9vJwMFE3lRQ" src="https://plot.ly/embed.js" async></script>
+   
 </div>
