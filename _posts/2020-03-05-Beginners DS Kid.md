@@ -6,4 +6,5 @@ Keeping it simply i used a database from Kaggle [source](https://www.kaggle.com/
 ![barchzz](https://raw.githubusercontent.com/geraldm24/geraldm24.github.io/master/img/barchart.png)
 
 ![viochzz](https://raw.githubusercontent.com/geraldm24/geraldm24.github.io/master/img/violinchart.png)
-![plotly](https://github.com/geraldm24/geraldm24.github.io/blob/master/img/World%20Data.html)
+<link href="https://github.com/geraldm24/geraldm24.github.io/blob/master/img/World%20Data.html" rel="import" />
+<link href="https://plot.ly/~geraldm24/1/#/plot" rel="import" />
