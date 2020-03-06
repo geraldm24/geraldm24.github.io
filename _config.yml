@@ -89,7 +89,7 @@ social-network-links:
 share-links-active:
  # twitter: true
   #facebook: true
-  linkedin: true
+  #linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -101,7 +101,7 @@ url-pretty:  # eg. "deanattali.com/beautiful-jekyll"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-159908225-1"
 
 # Google Tag Manager ID
 #gtm: ""
