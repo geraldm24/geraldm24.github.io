@@ -1,4 +1,4 @@
-layout: post
+
 #### PLENTY TABS OPEN
 Spending hours staring a the computer screen does something different to your brain. You learn to search google, you learn to remember 
 code from scratch as you type it repeated because you yet to master for loops. And because of this experience I have my stepping stones to create a brief portfolio. 
@@ -6,5 +6,4 @@ Keeping it simply i used a database from Kaggle [source](https://www.kaggle.com/
 ![barchzz](https://raw.githubusercontent.com/geraldm24/geraldm24.github.io/master/img/barchart.png)
 
 ![viochzz](https://raw.githubusercontent.com/geraldm24/geraldm24.github.io/master/img/violinchart.png)
-<link href="https://github.com/geraldm24/geraldm24.github.io/blob/master/img/World%20Data.html" rel="import" />
-<link href="https://plot.ly/~geraldm24/1/#/plot" rel="import" />
+<embed src="https://plot.ly/~geraldm24/1/#/plot">
