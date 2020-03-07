@@ -1,24 +1,19 @@
+<center>#### How to Target an Audience for Importing Goods</center>
 
-#### PLENTY TABS OPEN
-Spending hours staring at the computer screen does something different to your brain. You learn to google everything, and surely you recall code from scratch. All because you type it repeatedly and unfortunately you have yet to master for loops. And because of this experience I have my stepping stones to create a brief portfolio.  
-Keeping it simply I used a database from Kaggle. [source](https://www.kaggle.com/jboysen/penn-world-table#PWT.csv)
-**Possible scenario:** Say I'm a online business selling casual clothes as well as working gear and supplies. And I'm targeting countries with larger working proportions.
-I want to know if there is a positive correlation between the working proportion of the country , and the price level they pay to import items.  As I want the big spenders. 
-I first find the amount in years, in which the biggest fish can swim. 
-It seems from 2005 to 2014 I get a result for just 3 countries. 
-![viochzz](https://raw.githubusercontent.com/geraldm24/geraldm24.github.io/master/img/violincharttitle.png)
+>Let's take a look at some of the companies with the highest stock values in the world. Microsoft a leader in technology was able to edge Apple in stock value according to [gfmag](https://www.gfmag.com/global-data/economic-data/largest-companies) by focusing on subsciptions rather than hardware sales. As an online business you might take notes. I want to know which countries have the top 20 percentages of their population working. And the top 20 price levels the country pays to import goods. Because if you're targeting the working class like Walmart you might want to be sure the country is paying a good price level to import such goods. I believe there would be a positive relationship between the countries with the top 20 working percentage rates with the top 20 import price levels. And the two list of the top 20's would have some countries that overlay.  
 
-The result is the top 20 proportions of working people in a population.
-![barchzz](https://raw.githubusercontent.com/geraldm24/geraldm24.github.io/master/img/barchart.png) 
-The two charts are from the same data just different visual supplements.
-Now I want to see how much the top countries currently pay for imports.
-So I do a filtered graph from 2011-2014, for the top 20 price levels countries paid.
-<div>
+
+**Keeping** it simply I used a database from Kaggle. [source](https://www.kaggle.com/jboysen/penn-world-table#PWT.csv) Then I began to clean my data by removing null values. And filtering my data to get the top 20 from a specific column. I decided to use the import, and export price level columns because this told me how the company does business financially. Then I filtered my columns for more recent years because past years wouldn't be very helpful for the current price levels the countries pay.
+
+**In order to test my hypothesis** I have to create a subset of my data so only the years I want 2011-2014 are listed in my top 20. From there I just put them in descending order by sorting values and that creates my ordered lists. To check if there is a possible correlation I must scale my columns because it standardizes them to make them comparable.AS you see below my scatter plot has the standardized plots of Population Working Rate, by the Price Level Paid for imports. As well as the mean to show the average Price Level amount from each country.  
+
+**Testing** my first bar graph here shows the amount of countries to make the top 20 population working rate from 2011-2014. ![top20](https://raw.githubusercontent.com/geraldm24/geraldm24.github.io/master/img/labourbar.png) The countries in the top 20 had a rate from 60-76% rate of employment. Next I plot the top 20 Price Levels for Imports.<div>
  <a href="https://plot.ly/~geraldm24/1/?share_key=1ChQXZiL8ZE9vJwMFE3lRQ" target="_blank" title="World Data" style="display: block; text-align: center;"><img src="https://plot.ly/~geraldm24/1.png?share_key=1ChQXZiL8ZE9vJwMFE3lRQ" alt="World Data" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
  
-</div>
-Click on the chart above to see the interactive version. 
-None of those countries appear from the first visual in the top lavishly paying countries. I must reject the notion that I can use the largest working population to target for my business, as they are not paying the top amount for imports. Maybe they are doing so well they can payless to bring items in, it can be many reasons why.
+</div> And I get about 70-80% of the US dollar. But more significantly I get Switerzland and China, Macao SAR to appear once again in the top 20. Out of the top 20 Price Levels for Imports we see 5 out of 20 are repeats from our employment rate bar graph. That's about 20 percent. So if we wanted to target countries that work and pay pretty high price levels these two countries would be a start. But my hypothesis states that my correlation between employment rate and import price levels would be about 70%. So next from my scale list I do a scatter plot of those two variables.![scatter](https://raw.githubusercontent.com/geraldm24/geraldm24.github.io/master/img/scatter.png) We see a positive correlation. But when I use the correlation method my result only show a 34% correlation between the two. As seen in my [notebook](https://colab.research.google.com/drive/1tBnA-d4BeIeTISoNzfKwieMrk1ZVUyNZ#scrollTo=_s2E59FHP4cq).
 
+**In Conclusion :** My results are that there is some overlay between the 2 top 20 lists. Which would be good starters for analyzing what's which countries can we ship products to. However I have to reject my hypothesis that claims there would be 70% positive correlaton between the top 20 employment rate and the top 20 Import Price levels. The reason the overlap isn't much higher is probably because these two variables are a more independent than I thought. 
 
+*References:* [gfmag](https://www.gfmag.com/global-data/economic-data/largest-companies)
+[source](https://www.kaggle.com/jboysen/penn-world-table#PWT.csv)
 
